@@ -1,0 +1,48 @@
+
+fs.js:771
+  return binding.unlink(pathModule._makeLong(path));
+                 ^
+Error: ENOENT, no such file or directory '/Users/latentflip/Code/github/latentflip/watchify-server./watch-server'
+    at Object.fs.unlinkSync (fs.js:771:18)
+    at Object.<anonymous> (/Users/latentflip/Code/github/latentflip/watchify-server/spawn.js:13:4)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:906:3
+
+fs.js:771
+  return binding.unlink(pathModule._makeLong(path));
+                 ^
+Error: ENOENT, no such file or directory '/Users/latentflip/Code/github/latentflip/watchify-server/.watch-server'
+    at Object.fs.unlinkSync (fs.js:771:18)
+    at Object.<anonymous> (/Users/latentflip/Code/github/latentflip/watchify-server/spawn.js:13:4)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:906:3
+
+/Users/latentflip/Code/github/latentflip/watchify-server/spawn.js:40
+dout.write('Watchify server spawned at ' + SOCKET + ' with args ' + aargs.join
+                                                                    ^
+ReferenceError: aargs is not defined
+    at Server.<anonymous> (/Users/latentflip/Code/github/latentflip/watchify-server/spawn.js:40:83)
+    at Server.g (events.js:180:16)
+    at Server.emit (events.js:92:17)
+    at net.js:1055:10
+    at process._tickCallback (node.js:419:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:906:3
+Watchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args test/app.jsWatchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args: "test/app.js"Watchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args: "test/app.js"KilledWatchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args: "test/app.js"
+Killed
+Watchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args: "test/app.js"
+Killed
+Watchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args: "test/app.js"
+Watchify server spawned at /Users/latentflip/Code/github/latentflip/watchify-server/.watch-server with args: "test/app.js"
+Killed
