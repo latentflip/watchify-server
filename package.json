@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "browserify": "^7.0.2",
+    "through2": "^0.6.3",
     "watchify": "^2.2.1"
   },
   "devDependencies": {},
